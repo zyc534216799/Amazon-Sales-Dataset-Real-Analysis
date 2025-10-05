@@ -27,7 +27,7 @@
    - 优化（加`rating_count`, `category_encoded`）：线性回归R²=0.15，随机森林MSE=0.06, R²=0.29。
    - 特征重要性：评级数（31.16%）、情感（25.81%）驱动评级。
 
-![特征重要性](figures/feature_importance.png)
+![特征重要性](figures/随机森林特征重要性.png)
 
 ## 业务建议
 - **推广Computers&Accessories**：高评级（4.16），低价（845₹），加PPC广告，预计销量升15%。
@@ -49,9 +49,9 @@
 3. 查看`amazon_analysis.html`或`report.pdf`。
 
 ## 成果展示
-- **评级分布**：![评级分布](figures/rating_distribution.png)
-- **价格vs折扣**：![价格vs折扣](figures/price_vs_discount.png)
-- **报告**：下载[report.pdf](report.pdf)
+- **评级分布**：![评级分布](figures/产品评级分布.png)
+- **价格vs折扣**：![价格vs折扣](figures/原价vs折扣价散点图.png)
+- **报告**：下载[report.pdf](amazon_analysis.pdf)
 
 ## 改进计划
 - 添加词云分析评论关键词。
